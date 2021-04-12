@@ -15,7 +15,6 @@ function App() {
         >
           LOCS YOU SHOULD FIX GIT PROBLEM
         </a>
-        <Home/>
       </header>
     </div>
   );
