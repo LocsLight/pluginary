@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Home from './pages';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         >
           LOCS YOU SHOULD FIX GIT PROBLEM
         </a>
+        <Home/>
       </header>
     </div>
   );
