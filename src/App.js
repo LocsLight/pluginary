@@ -1,16 +1,21 @@
-import React from 'react';
+import logo from './logo.svg';
 import './App.css';
-import Home from './pages';
-import {BrowserRouter as Router} from 'react-router-dom';
-import InfoSection from './components/InfoSection';
-import {homeObjOne} from './components/InfoSection/Data';
 
 function App() {
   return (
-    <Router>
-     <Home />
-     <InfoSection {...homeObjOne}/>
-    </Router>
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <a
+          className="App-link"
+          href="https://loiclud.dev"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LOCS YOU SHOULD FIX GIT PROBLEM
+        </a>
+      </header>
+    </div>
   );
 }
 
