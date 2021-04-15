@@ -28,7 +28,7 @@ function HeroSection(props) {
             <HeroContent>
                 <HeroH1>Artisan du numérique basé à Strasbourg</HeroH1>
                 <HeroP>
-                    Loic Lud vous aide à concrétiser vos projets. Inscrivez-vous, formulez votre demande, posez-moi vos question et vous serez recontacté par mail ou par téléphone.
+                    Loic Lud, développeur freelance, vous aide à concrétiser vos projets. Inscrivez-vous, formulez votre demande, posez-moi vos question et vous serez recontacté par mail ou par téléphone.
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button 

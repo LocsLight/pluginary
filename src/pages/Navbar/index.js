@@ -40,7 +40,7 @@ class navbar extends Component {
         return (
             <nav className="nav">
                 <div className= "navabar-container">
-                    <h1 className="navbar-logo">Loic Lud</h1>
+                    <h1 className="navbar-logo">Pluginary</h1>
                     <div className="mobile-icon" onClick={this.handleClick}>
                         <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                     </div>
