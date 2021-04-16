@@ -1,10 +1,14 @@
 import './App.css';
-import Navbar from './pages/Navbar';
+import Home from './pages/Home'
+import InfoSection from './pages/Home/InfoSection'
+import {homeObjOne} from './pages/Home/InfoSection/Data.js'
+
 
 function App() {
   return (
     <div className="App">
-        <Navbar/>
+        <Home/>
+        <InfoSection {...homeObjOne}/>
     </div>
   );
 }

@@ -1,4 +1,5 @@
 
+import Bg1 from '../../../images/svg/bg1.svg'
 export const homeObjOne = {
     id:'about',
     lightBg: false,
@@ -9,7 +10,7 @@ export const homeObjOne = {
     description: 'Parce qu\'une idée de projet n\'est jamais figé dans le temps, soyez accompagné aussi longtemps que vous en avez besoin.',
     buttonLabel: 'Get started',
     imgStart: false,
-    img: require('./momomo.jpg'),
+    img: Bg1,
     alt: 'a car',
     dark: true,
     primary: true,
