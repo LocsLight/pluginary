@@ -1,18 +1,26 @@
 .button {
+    display: flex;
+    align-items: center;
+}
+
+.btn-link{
+    background: #01bf71;
     border-radius: 50px;
-    background: #010606;
     white-space: nowrap;
-    padding: 12px 30px;
-    color: #fff;
+    color: #010606;
+    padding: 10px 22px;
     font-size: 16px;
     outline: none;
     border: none;
     cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
+}
+
+.btn-link:hover{
+    transition: all 0.2s ease-in-out;
+    background: #fff;
+    color: #010606;
 }
 .primary{
     background: '#01bf71'

@@ -4,7 +4,9 @@ import './Button.css'
 function Button(props) {
     return (
         <>
-            <a className="button" href="/">{props.children}</a>
+        <nav className="button">
+            <a className="btn-link" href="/">{props.children}</a>
+        </nav>
         </>
     )
 }

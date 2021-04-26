@@ -1,14 +1,14 @@
 
-import Bg1 from '../../../images/svg/bg1.svg'
+import Bg1 from '../../../images/svg/bg18.svg'
 export const homeObjOne = {
     id:'about',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
     topLine: 'Développeur Full-Stack',
-    headline: 'Accompagnement illimité dans le temps',
-    description: 'Parce qu\'une idée de projet n\'est jamais figé dans le temps, soyez accompagné aussi longtemps que vous en avez besoin.',
-    buttonLabel: 'Get started',
+    headline: 'Et pourquoi pas un CDI ?',
+    description: 'Il y a une bonne entente au sein de votre entreprise? Vous utilisez des technologies modernes pour vos projets? Entourez-vous de collaborateurs passionnés et impliqués.',
+    buttonLabel: 'Contacter',
     imgStart: false,
     img: Bg1,
     alt: 'a car',
