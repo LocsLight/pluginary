@@ -90,14 +90,8 @@
 }
 
 .button {
-    border-radius: 50px;
-    background: #010606;
-    white-space: nowrap;
-    padding: 12px 30px;
-    color: #fff;
+    padding: 22px 30px;
     font-size: 16px;
-    outline: none;
-    border: none;
     cursor: pointer;
     display: flex;
     justify-content: center;

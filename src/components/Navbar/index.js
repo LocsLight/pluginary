@@ -4,6 +4,7 @@ import './Navbar.css'
 
 class Navbar extends Component {
     state= {clicked: false}
+
     MenuItems = [
         {
             title:'Accueil',
@@ -35,6 +36,9 @@ class Navbar extends Component {
     handleClick = () => {
         this.setState({clicked: !this.state.clicked})
     } 
+    closeMobileMenu = () => {
+
+    }
     
     render() {
         return (
