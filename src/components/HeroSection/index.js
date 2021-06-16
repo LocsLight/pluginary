@@ -15,9 +15,9 @@ const HeroSection = () => {
                 <video className="video-bg" autoPlay loop muted src={Video} type='video/mp4'/>
             </div>
             <div className="hero-content">
-                <h1 className="hero-h1">Développeur React à la  recherche un contrat en alternance</h1>
+                <h1 className="hero-h1">Développeur d'applications web et mobiles</h1>
                 <p className = "hero-p">
-                    Vous formez une équipe de développeurs, et vous êtes prêt à engager un apprenti en alternance? Contactez-moi.
+                    Parce que le monde d'aujourd'hui est différent de celui d'hier.
                 </p>
                 <div className="hero-btn-wrapper">
                     <Button

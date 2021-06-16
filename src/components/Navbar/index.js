@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {NavLink} from 'react-router-dom'
 import './Navbar.css'
 
 
@@ -49,15 +50,21 @@ class Navbar extends Component {
                         <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                     </div>
                     <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
-                        {this.MenuItems.map((item, index) => {
-                            return(
-                                <li className="nav-item">
-                                    <a className={item.cName} href={item.url}>
-                                    {item.title}
-                                    </a>
+                        <li className="nav-item">
+                            <NavLink to ='/accueil' className="nav-links">Accueil</NavLink>
+                        </li>
+                        <li className="nav-item">
+                                <NavLink to='/services' className="nav-links">Services</NavLink>
+                        </li>
+                        <li className="nav-item">
+                                <NavLink to='/parcours' className="nav-links">Parcours</NavLink>
+                        </li>
+                        <li className="nav-item">
+                                <NavLink to='/contact' className="nav-links">Contact</NavLink>
+                        </li>
+                        <li className="nav-item">
+                                <NavLink to='/singup' className="nav-links-mobile">S'inscrire</NavLink>
                                 </li>
-                            )
-                        })}
                     </ul>
                     <nav className="nav-btn">
                         <a className="nav-btn-link" href="/singnin">S'inscrire</a>

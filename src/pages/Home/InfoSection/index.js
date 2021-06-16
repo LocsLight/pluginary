@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'react-scroll';
 import Button from '../../../components/Button'
 import './infoSection.css'
 
