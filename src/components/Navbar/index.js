@@ -67,7 +67,7 @@ class Navbar extends Component {
                                 </li>
                     </ul>
                     <nav className="nav-btn">
-                        <a className="nav-btn-link" href="/singnin">S'inscrire</a>
+                        <a className="nav-btn-link" href="/signin">S'inscrire</a>
                     </nav>
                 </div>
             </nav>

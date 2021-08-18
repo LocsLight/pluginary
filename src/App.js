@@ -1,20 +1,17 @@
 import './App.css';
 import Home from './pages/Home'
 //import InfoSection from './pages/Home/InfoSection'
-import InfoSection from './components/InfoSection'
-import ServicesSection from './components/ServicesSection'
-import {homeObjOne, homeObjOne2, homeObjOne3} from './pages/Home/InfoSection/Data.js'
-import {BrowserRouter as Router} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import SignInPage from './pages/SignIn'
 
 
 function App() {
   return (
     <Router>
-        <Home/>
-        <InfoSection {...homeObjOne}/>
-        <InfoSection {...homeObjOne2}/>
-        <InfoSection {...homeObjOne3}/>
-        <ServicesSection/>
+      <Switch>
+        <Route path='/' component = {Home} exact/>
+        <Route path='/signin' component = {SignInPage} exact/>
+      </Switch>
     </Router>
   );
 }

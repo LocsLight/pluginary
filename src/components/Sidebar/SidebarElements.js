@@ -44,7 +44,7 @@ export const SidebarRoute = styled.div`
     font-size: 16px;
     outline: none;
     border: none;
-    cursor: pointer:
+    cursor: pointer;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
     
@@ -72,7 +72,7 @@ export const SidebarLink = styled(LinkS)`
     font-size: 1.5rem;
     text-decoration: none;
     list-style: none;
-    tr  ansition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
     text-decoration: none;
     color: #fff;
     cursor: pointer;
