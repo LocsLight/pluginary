@@ -25,7 +25,7 @@ export const InfoObj2 = {
     lightText: true,
     lightTextDesc: true,
     topLine: 'développeur JS',
-    headline: 'Ne soyez jamais en retard sur les dernières technos.',
+    headline: 'Ne soyez jamais en retard sur les technologies.',
     description: 'Pour rester performant sur chacune des étapes liées à la conception ou à la production d\'application j\'effectue régulièrement ma veille technologique principalement autour de javascript. Je reste accessoirement à l\'écoute de  l\'évolution des langages et librairies',
     buttonLabel: 'Consulter',
     imgStart: false,

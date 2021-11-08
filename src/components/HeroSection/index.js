@@ -15,7 +15,7 @@ const HeroSection = () => {
                 <video className="video-bg" autoPlay loop muted src={Video} type='video/mp4'/>
             </div>
             <div className="hero-content">
-                <h1 className="hero-h1">Développeur d'applications web et mobiles</h1>
+                <h1 className="hero-h1">Artisan du numérique basé à Strasbourg</h1>
                 <p className = "hero-p">
                     Parce que le monde d'aujourd'hui est différent de celui d'hier.
                 </p>

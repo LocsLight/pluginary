@@ -82,7 +82,9 @@ export const ServicesIcon = styled.img`
 `
 
 export const ServicesH1 = styled.div`
-    font-size: 2.5rem;
+    font-size: 48px;
+    line-height: 1.1;
+    font-weight: 600;
     color: #fff;
     margin-bottom: 64px;
 
