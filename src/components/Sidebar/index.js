@@ -23,10 +23,10 @@ const Sidebar = ({isOpen, toggle}) => {
                     <SidebarLink to="front-end" smooth={true} duration={1000}>Front</SidebarLink>
                     <SidebarLink to="back-end" smooth={true} duration={1000}>Back</SidebarLink>
                     <SidebarLink to="services" smooth={true} duration={1000}>Offres</SidebarLink>
-                    <SidebarLink to ='singup' onClick={toggle}>S'inscrire</SidebarLink>
+                    <SidebarLink to="/signin" onClick={toggle}>S'inscrire</SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SidebarRoute to= '/singin'>S'inscrire</SidebarRoute>
+                    <SidebarRoute to= '/signin'>S'inscrire</SidebarRoute>
                 </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>

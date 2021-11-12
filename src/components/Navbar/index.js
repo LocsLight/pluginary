@@ -19,7 +19,7 @@ const Navbar = ({toggle}) => {
             <>
                 <Nav>
                     <NavbarContainer>
-                        <NavLogo to='/'>loiclud.dev</NavLogo>
+                        <NavLogo to='/'>Pluginary</NavLogo>
                         <MobileIcon onClick={toggle}>
                             <FaBars/>                    
                         </MobileIcon>
@@ -38,11 +38,11 @@ const Navbar = ({toggle}) => {
                                 <NavLinks to="back-end" className="nav-links" smooth={true} duration={1000}>Back</NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="services" className="nav-links" smooth={true} duration={1000}>Offres</NavLinks>
+                                <NavLinks to="services" className="nav-links" smooth={true} duration={1000}>Service</NavLinks>
                             </NavItem>
                         </NavMenu>
                         <NavBtn >
-                            <NavBtnLink>S'inscrire</NavBtnLink>
+                            <NavBtnLink to='/signin'>Se connecter</NavBtnLink>
                         </NavBtn>
                     </NavbarContainer>
                 </Nav>

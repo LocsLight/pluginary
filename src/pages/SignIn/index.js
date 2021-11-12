@@ -1,13 +1,14 @@
 import React from 'react'
+import Signin from '../../components/Signin'
+import Navbar from '../../components/Navbar'
 
-const SignInPage = () => {
+const SigninPage = () => {
     return (
         <div>
-            <h1>
-                SignIn
-            </h1>
+            <Navbar/>
+            <Signin/>
         </div>
     )
 }
 
-export default SignInPage;
+export default SigninPage;
