@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.47ef980f.chunk.css",
-    "main.js": "/static/js/main.0192b193.chunk.js",
-    "main.js.map": "/static/js/main.0192b193.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.226e15d1.js",
-    "runtime-main.js.map": "/static/js/runtime-main.226e15d1.js.map",
-    "static/js/2.a0dd0a98.chunk.js": "/static/js/2.a0dd0a98.chunk.js",
-    "static/js/2.a0dd0a98.chunk.js.map": "/static/js/2.a0dd0a98.chunk.js.map",
-    "static/js/3.6d39e70d.chunk.js": "/static/js/3.6d39e70d.chunk.js",
-    "static/js/3.6d39e70d.chunk.js.map": "/static/js/3.6d39e70d.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.47ef980f.chunk.css.map": "/static/css/main.47ef980f.chunk.css.map",
-    "static/js/2.a0dd0a98.chunk.js.LICENSE.txt": "/static/js/2.a0dd0a98.chunk.js.LICENSE.txt",
-    "static/media/bg1.b20b5732.svg": "/static/media/bg1.b20b5732.svg",
-    "static/media/bg2.b2b2028a.svg": "/static/media/bg2.b2b2028a.svg",
-    "static/media/svg-1.42f9ea7b.png": "/static/media/svg-1.42f9ea7b.png",
-    "static/media/svg-2.ce2a100f.png": "/static/media/svg-2.ce2a100f.png",
-    "static/media/video.52e8933b.mp4": "/static/media/video.52e8933b.mp4"
+    "main.css": "/LoicLud/pluginary/react-deploy/static/css/main.47ef980f.chunk.css",
+    "main.js": "/LoicLud/pluginary/react-deploy/static/js/main.5d5340e5.chunk.js",
+    "main.js.map": "/LoicLud/pluginary/react-deploy/static/js/main.5d5340e5.chunk.js.map",
+    "runtime-main.js": "/LoicLud/pluginary/react-deploy/static/js/runtime-main.cfe91942.js",
+    "runtime-main.js.map": "/LoicLud/pluginary/react-deploy/static/js/runtime-main.cfe91942.js.map",
+    "static/js/2.db6696b6.chunk.js": "/LoicLud/pluginary/react-deploy/static/js/2.db6696b6.chunk.js",
+    "static/js/2.db6696b6.chunk.js.map": "/LoicLud/pluginary/react-deploy/static/js/2.db6696b6.chunk.js.map",
+    "static/js/3.e59d268c.chunk.js": "/LoicLud/pluginary/react-deploy/static/js/3.e59d268c.chunk.js",
+    "static/js/3.e59d268c.chunk.js.map": "/LoicLud/pluginary/react-deploy/static/js/3.e59d268c.chunk.js.map",
+    "index.html": "/LoicLud/pluginary/react-deploy/index.html",
+    "static/css/main.47ef980f.chunk.css.map": "/LoicLud/pluginary/react-deploy/static/css/main.47ef980f.chunk.css.map",
+    "static/js/2.db6696b6.chunk.js.LICENSE.txt": "/LoicLud/pluginary/react-deploy/static/js/2.db6696b6.chunk.js.LICENSE.txt",
+    "static/media/bg1.b20b5732.svg": "/LoicLud/pluginary/react-deploy/static/media/bg1.b20b5732.svg",
+    "static/media/bg2.b2b2028a.svg": "/LoicLud/pluginary/react-deploy/static/media/bg2.b2b2028a.svg",
+    "static/media/svg-1.42f9ea7b.png": "/LoicLud/pluginary/react-deploy/static/media/svg-1.42f9ea7b.png",
+    "static/media/svg-2.ce2a100f.png": "/LoicLud/pluginary/react-deploy/static/media/svg-2.ce2a100f.png",
+    "static/media/video.52e8933b.mp4": "/LoicLud/pluginary/react-deploy/static/media/video.52e8933b.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.226e15d1.js",
-    "static/js/2.a0dd0a98.chunk.js",
+    "static/js/runtime-main.cfe91942.js",
+    "static/js/2.db6696b6.chunk.js",
     "static/css/main.47ef980f.chunk.css",
-    "static/js/main.0192b193.chunk.js"
+    "static/js/main.5d5340e5.chunk.js"
   ]
 }
