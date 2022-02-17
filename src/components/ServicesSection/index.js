@@ -25,8 +25,8 @@ const ServicesSection = ({ imgStart})=> {
                     </ServicesCard>
                     <ServicesCard imgStart={imgStart}>
                         <ServicesIcon src={Icon2}/>
-                        <ServicesH2>Application Web</ServicesH2>
-                        <ServicesP>Une interface web avec les fonctionnalités dont vous avez besoin</ServicesP>
+                        <ServicesH2>Site e-commerce</ServicesH2>
+                        <ServicesP>Une interface web qui vous permet de vendre vos produit en ligne</ServicesP>
                     </ServicesCard>
                     <ServicesCard imgStart={imgStart}>
                         <ServicesIcon src={Icon2}/>

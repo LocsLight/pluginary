@@ -15,14 +15,15 @@ const HeroSection = () => {
                 <video className="video-bg" autoPlay loop muted src={Video} type='video/mp4'/>
             </div>
             <div className="hero-content">
-                <h1 className="hero-h1">Artisan du numérique basé à Strasbourg</h1>
+                <h1 className="hero-h1">Développeur web</h1>
+                <h1 className="hero-h1">basé à Strasbourg</h1>
                 <p className = "hero-p">
-                    Parce que le monde d'aujourd'hui est différent de celui d'hier.
+                    Il est l'heure de coder vos projet
                 </p>
                 <div className="hero-btn-wrapper">
                     <Button
                         className='button primary'
-                        link='signup' 
+                        link='signin' 
                         onMouseEnter={onHover} 
                         onMouseLeave={onHover}
                         primary='true'

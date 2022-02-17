@@ -24,12 +24,11 @@ const Navbar = ({toggle}) => {
                             <FaBars/>                    
                         </MobileIcon>
                         <NavMenu>
-                            
                             <NavItem>
-                                <NavLinks to="disponibility" className="nav-links" smooth={true} duration={1000}>Disponibilités</NavLinks>
+                                <NavLinks to="disponibility" className="nav-links" smooth={true} duration={1000}>Dispo</NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="expertise" className="nav-links" smooth={true} duration={1000}>Expertise</NavLinks>
+                                <NavLinks to="expertise" className="nav-links" smooth={true} duration={1000}>Langage</NavLinks>
                             </NavItem>
                             <NavItem>
                                 <NavLinks to="front-end" className="nav-links" smooth={true} duration={1000}>Front</NavLinks>
